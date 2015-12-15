@@ -1,0 +1,99 @@
+baseurl = "http://privacychain.com/"
+languageCode = "en-us"
+title = "PrivacyChain"
+theme = "creative"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more informtion take a look at the README.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "PrivacyChain"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "PrivacyChain"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Features"
+			portfolio = "App Preview"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "PrivacyChain"
+		subtitle   = "Regain control of your digital presence.  Anonymize all your devices and services.  Bulletproof decentralized trust technology"
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "Take the power back!"
+		description = "Do you know what your private data is worth? Do you know what your level of exposure is? Decide how your data is being used. Get fair reward for what you share."
+		buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "Features"
+
+        [[params.services.list]]
+            icon = "fa-connectdevelop"
+            title = "Decentralized trust based on open blockchain technology"
+            description = "The PrivacyChain system can be freely used by anyone to irrefutably verify data usage contracts."
+
+		[[params.services.list]]
+            icon = "fa-toggle-on"
+            title = "An app to help you decide how your data is used"
+            description = "Our Privacy Angel app helps you manage the complexity of data usage contracts."
+
+        [[params.services.list]]
+            icon = "fa-mixcloud"
+            title = "Privacy for the Internet of Things"
+            description = "Control not only web and smartphone apps but also all your connected objects."
+
+        [[params.services.list]]
+			icon = "fa-money"
+			title = "Fair compensation for data and service usage"
+			description = "Want to earn money by sharing data? Willing to pay to freely use services without being tracked?"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Get the Creative Theme for Hugo"
+
+		[params.aside.button]
+			text = "Download now"
+			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Stay in touch!"
+		description = "Follow us on Twitter to know more:"
+		twitter = "PrivacyChain"
