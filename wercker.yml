@@ -9,7 +9,7 @@ deploy:
     - install-packages:
         packages: git ssh-client
     - lukevivier/gh-pages@0.2.1:
-        repo: Privacy-Chain.github.io
+        repo: Privacy-Chain/Privacy-Chain.github.io
         token: $GIT_TOKEN
         domain: web.privacychain.com
         basedir: public
