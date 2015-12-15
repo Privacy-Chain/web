@@ -8,3 +8,13 @@
 <script src="{{ .Site.BaseURL }}js/wow.min.js"></script>
 {{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
 <script src="{{ .Site.BaseURL }}js/creative.js"></script>
+
+{{ with .Site.Params.googleAnalytics }}
+{{ "<!-- Google Analytics -->" | safeHTML }}
+<script>
+  var _gaq=[['_setAccount','{{ . }}'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+{{ end }}

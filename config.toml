@@ -25,6 +25,8 @@ theme = "creative"
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
 
+	# Enable Google Analytics by inserting your tracking code
+	googleAnalytics = "UA-71421752-3"
 
 	# Navigation
 	[params.navigation]
