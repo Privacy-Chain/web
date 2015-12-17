@@ -34,7 +34,7 @@ theme = "creative"
 
 		[params.navigation.links]
 			about     = "About"
-			services  = "Features"
+			features  = "Features"
 			portfolio = "App Preview"
 			contact   = "Contact"
 
@@ -43,7 +43,7 @@ theme = "creative"
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "PrivacyChain"
-		subtitle   = "Regain control of your digital presence.  Anonymize all your devices and services.  Bulletproof decentralized trust technology"
+		subtitle   = "Regain control of your digital presence<br>Anonymize all your devices and services<br>Bulletproof decentralized trust technology"
 		buttonText = "Find out more"
 
 
@@ -55,25 +55,25 @@ theme = "creative"
 
 
 	# Service section
-	[params.services]
+	[params.features]
 		headline = "Features"
 
-        [[params.services.list]]
+        [[params.features.list]]
             icon = "fa-connectdevelop"
             title = "Decentralized trust based on open blockchain technology"
             description = "The PrivacyChain system can be freely used by anyone to irrefutably verify data usage contracts."
 
-		[[params.services.list]]
+		[[params.features.list]]
             icon = "fa-toggle-on"
             title = "An app to help you decide how your data is used"
             description = "Our Privacy Angel app helps you manage the complexity of data usage contracts."
 
-        [[params.services.list]]
+        [[params.features.list]]
             icon = "fa-mixcloud"
             title = "Privacy for the Internet of Things"
             description = "Control not only web and smartphone apps but also all your connected objects."
 
-        [[params.services.list]]
+        [[params.features.list]]
 			icon = "fa-money"
 			title = "Fair compensation for data and service usage"
 			description = "Want to earn money by sharing data? Willing to pay to freely use services without being tracked?"
