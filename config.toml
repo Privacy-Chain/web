@@ -1,7 +1,6 @@
-baseurl = "http://Privacy-Chain.github.io/"
+baseurl = "http://privacychain.com/"
 languageCode = "en-us"
 title = "PrivacyChain"
-theme = "creative"
 
 [params]
 
@@ -20,7 +19,7 @@ theme = "creative"
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "PrivacyChain"
-	description = "Your description"
+	description = "Decentralized trust technology"
 
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
@@ -37,6 +36,8 @@ theme = "creative"
 			features  = "Features"
 			portfolio = "App Preview"
 			contact   = "Contact"
+			blog      = "Blog"
+			blogUrl   = "https://medium.com/@PrivacyChain"
 
 
 	# Hero section
