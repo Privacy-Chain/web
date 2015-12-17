@@ -1,0 +1,16 @@
+{{ "<!-- CONTACT -->" | safeHTML }}
+<section class="bg-primary" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">{{ with .Site.Params.contact.headline }}{{ . }}{{ end }}</h2>
+                <hr class="primary">
+                <p>{{ with .Site.Params.contact.description }}{{ . | markdownify }}{{ end }}</p>
+
+                    <a href="https://twitter.com/{{ with .Site.Params.contact.twitter }}{{ . }}{{ end }}" class="btn btn-primary btn-lg" data-show-count="false" data-size="large">Follow @{{ with .Site.Params.contact.twitter }}{{ . }}{{ end }}</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+            </div>
+        </div>
+    </div>
+</section>
