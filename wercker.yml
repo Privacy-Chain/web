@@ -11,6 +11,6 @@ deploy:
     - lukevivier/gh-pages@0.2.1:
         repo: Privacy-Chain/Privacy-Chain.github.io
         token: $GIT_TOKEN
-        domain: web.privacychain.com
+        domain: www.privacychain.com
         basedir: public
 
